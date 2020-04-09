@@ -1,0 +1,79 @@
+﻿/* footer */
+
+
+.footer-flex {
+    padding: 10px;
+    background: #494343;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.flex-element {
+    color: darkgray;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+
+/* flex-box */
+
+.footer-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-element:nth-child(1) {
+    flex-basis: 100%;
+}
+
+.flex-element:nth-child(2) {
+}
+
+.flex-element:nth-child(3) {
+}
+
+.flex-element:nth-child(4) {
+}
+
+.element-1:hover {
+    color:#fff;
+}
+
+.element-2 {
+    list-style-type: none;
+}
+
+    .element-2 a {
+        text-decoration: none;
+        color: darkgray;
+    }
+
+    .element-2 a:hover {
+        color:#fff;
+    }
+
+.element-4 a {
+    background: url("../img/sprites.png");
+    height: 98px;
+    width: 98px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.element-4 a.instagram {
+    background-position: -300px 0;
+}
+
+    .element-4 a:hover {
+        opacity:0.8;
+    } 
+
+.element-4 a.facebook {
+    background-position: 0 0;
+}
+
+.element-4 a.youtube {
+    background-position: -200px 0;
+}

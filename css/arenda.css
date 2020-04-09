@@ -7,28 +7,29 @@
     height: 100vh;
     background: url("../img/arenda.jpg") center no-repeat;
     background-size: cover;
-    opacity:0.9;
+    opacity:0.8;
     justify-content:center;
 }
 
 .arenda_article_header {
     width: 100%;
     max-width: 950px;
-    margin: 0 auto 20px;
+    margin: 0 auto 0px;
     text-align: center;
 }
 
 .arenda_article_suptitle {
     font-family: 'Comic Sans MS', cursive;
-    font-size: 20px;
-    color:#ff0000;
+    font-size: 34px;
+    color:#000000;
 }
 
 .arenda_article_title {
-    font-size: 34px;
+    font-size: 20px;
     font-weight: 700;
-    color: #ff0000;
+    color: #000000;
     text-transform: uppercase;
+    padding-bottom:50px;
 }
 
 .arenda_section {
@@ -45,4 +46,60 @@
     justify-content:space-around;
     align-items: center;
     padding:20px 20px 30px 20px;
+    width:100%;
 }
+
+/* NAVigation*/
+
+.nav1 {
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 50px;
+    padding-top:15px;
+    border:3px solid #808080;
+    border-radius:3px;
+}
+
+.nav1_link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+    position: relative;
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.5s linear;
+}
+
+
+.nav1_link:hover {
+        color: #808080;
+    }
+
+.nav1_link:hover:after {
+            opacity: 1;
+}
+
+
+.about1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about1_item {
+    padding: 20px;
+    width: 20%;
+    height: 30%;
+}
+
+.about1_item:hover .about_img img {
+    opacity: .7;
+}
+
+.about1_img {
+    background: linear-gradient(to bottom, opacity, none);
+}
+
+.about1_img img {
+        display: block;
+        transition: opacity .1s linear;
+    }
