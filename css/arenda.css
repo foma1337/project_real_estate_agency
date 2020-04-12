@@ -103,3 +103,119 @@
         display: block;
         transition: opacity .1s linear;
     }
+
+
+/* arenda bar */
+
+.arenda_bar {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/arenda.jpg") center no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.arenda-flex {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    background: black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.arenda-flex-element {
+    background:red;
+    padding: 5px;
+    border-radius: 3px;
+    margin:1px;
+}
+
+.arenda-flex-element:nth-child(1) {
+    flex-basis:24%;
+}
+.arenda-flex-element:nth-child(2) {
+    flex-basis: 24%;
+}
+.arenda-flex-element:nth-child(3) {
+    flex-basis: 24%;
+}
+.arenda-flex-element:nth-child(4) {
+    flex-basis: 24%;
+}
+.arenda-flex-element:nth-child(5) {
+    flex-basis: 15%;
+}
+.arenda-flex-element:nth-child(6) {
+    flex-basis: 15%;
+}
+.arenda-flex-element:nth-child(7) {
+    flex-basis: 15%;
+}
+
+.arenda-flex-element:nth-child(8) {
+    flex-basis: 15%;
+}
+
+.arenda-flex-element:nth-child(9) {
+    flex-basis: 15%;
+}
+
+.arenda-flex-element:nth-child(10) {
+    flex-basis: 15%;
+}
+
+.arenda-flex-element:nth-child(11) {
+    flex-basis: 59%;
+}
+
+.arenda-flex-element:nth-child(12) {
+    flex-basis: 14%;
+}
+
+.arenda-flex-element:nth-child(13) {
+    flex-basis: 24%;
+}
+
+.arenda-box-1 {
+    width:350px;
+    height:40px;
+    font-size:24px;
+}
+
+.arenda-box-1:hover {
+    opacity:0.8;
+    cursor:pointer;
+}
+
+.arenda-box-2 {
+    font-size:20px;
+    text-align:center;
+}
+
+.arenda-box-3 {
+}
+
+.arenda-box-4 {
+    width:45px;
+    height:40px;
+    padding:2px;
+}
+
+.arenda-box-5 {
+    width:100px;
+    height:40px;
+    padding:10px;
+}
+
+.arenda-box-6 {
+    width:200px;
+    height:40px;
+}
+
+.arenda-box-7 {
+    width:850px;
+    height:40px;
+    padding:10px;
+}
+
