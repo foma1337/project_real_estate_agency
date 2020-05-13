@@ -5,6 +5,8 @@
     <meta charset="utf-8" />
     <title></title>
     <link rel="stylesheet" href="css/catalog.css" />
+    <link rel="stylesheet" href="css/arenda.css" />
+    <link rel="stylesheet" href="css/footerflex.css" />
 </head>
 <body>
     <header class="header">
@@ -15,26 +17,14 @@
                 </div>
 
                 <nav class="nav">
-                    <a class="nav_link" href="#">Каталог недвижимости</a>
+                    <a class="nav_link" href="catalog.html">Каталог недвижимости</a>
                     <a class="nav_link" href="#">Квартиры</a>
                     <a class="nav_link" href="#">Загородные дома</a>
-                    <a class="nav_link" href="#">Аренда</a>
+                    <a class="nav_link" href="arenda.html">Аренда</a>
                     <a class="nav_link" href="#">О нас</a>
                     <a class="nav_link" href="#">Отзывы</a>
-                    <div class="nav_link">
-                        <div class="dws-form">
-
-                            <label class="tab" title="Вкладка">Войти</label>
-                            <form class="tab-form" method="post">
-                                <input type="email" placeholder="Введите имя" />
-                                <input type="password" placeholder="Введите пароль" />
-                                <a href="#" class="button">Войти</a>
-                                <a href="#" class="button">Регистрация</a>
-                            </form>
-                      
-                        </div>
-                        </div>
-</nav>
+                    <a class="nav_link" href="#formsign">Войти</a>
+                </nav>
             </div>
         </div>
     </header>
@@ -110,10 +100,10 @@
 
                             </div>
                         </div>
+                    </div>
                 </div>
             </div>
         </div>
-            </div>
     </section>
 
     <section class="article1">
@@ -148,11 +138,11 @@
                             </div>
                             <p class="article_p">3</p>
                         </div>
-                            <div class="about">
-                                <p class="article_price knopka2">Цена по запросу</p>
-                            </div>
-                        
+                        <div class="about">
+                            <p class="article_price knopka2">Цена по запросу</p>
                         </div>
+
+                    </div>
 
                 </div>
                 <div class="about_item">
@@ -253,45 +243,49 @@
     </section>
 
 
-    <footer class="finish">
-        <div class="container">
+    <footer class="arenda_footer">
+        <div class="footer-flex">
 
-            <div class="section_footer">
+            <div class="flex-element element-1">
                 <h1> Кристалл</h1>
             </div>
 
-            <div class="bar">
-                <ul class="bar_item">
-                    <li><a href="catalog.html">Каталог недвижимости</a></li>
-                    <li><a href="#">Загородные дома</a></li>
-                    <li><a href="#">Аренда</a></li>
-                    <li><a href="#">О нас </a></li>
-                    <li><a href="#">Отзывы</a></li>
-                    <li><a href="#">Контакты</a></li>
-                </ul>
-                <div class="bar_item">
-                    <div>
-                        Санкт Петербург<br />
-                        Синопская наб д 15
-                    </div>
-                    <div>+8 812 4444</div>
-                    <div>fenix@gmail.com</div>
-                    <div> Пн-Пт: 9:00 AM – 16:00 PM</div>
+            <ul class="flex-element element-2">
+                <li><a href="catalog.html">Каталог недвижимости</a></li>
+                <li><a href="#">Загородные дома</a></li>
+                <li><a href="#">Аренда</a></li>
+                <li><a href="#">О нас </a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+
+            <div class="flex-element element-3">
+                <div>
+                    Санкт Петербург<br />
+                    Синопская наб д 15
                 </div>
-                <div class="bar_item">
-                    <p>
-                        facebook
-                    </p>
-                    <p>
-                        Instagram
-                    </p>
-                    <p>
-                        Twitter
-                    </p>
-                </div>
+                <div>+8 812 4444</div>
+                <div>fenix@gmail.com</div>
+                <div> Пн-Пт: 9:00 AM – 16:00 PM</div>
             </div>
 
+            <div class="flex-element element-4">
+                <a class="instagram" href="#"></a>
+                <a class="facebook" href="#"></a>
+                <a class="youtube" href="#"></a>
+            </div>
         </div>
     </footer>
+
+    <section class="modal" id="formsign">
+        <form name="auth" action="#" method="post">
+            <input class="form-box1" type="email" name="email" placeholder="Введите Ваш e-mail">
+            <input class="form-box1" type="password" name="pwd" placeholder="Введите Ваш пароль">
+            <input class="form-box2" type="submit" value="Войти">
+            <input class="form-box2" type="submit" value="Регистрация">
+        </form>
+        <a class="close-modal" href="#0">X</a>
+    </section>
+
 </body>
 </html>

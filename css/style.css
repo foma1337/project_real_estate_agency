@@ -395,3 +395,82 @@ hr {
     top: 10px;
     right: 10px;
 }
+
+/* form2*/
+
+.modal1 {
+    position: absolute;
+    left: 50%;
+    background: #b19891;
+    padding: 30px;
+    width: 275px;
+    height:350px;
+    margin: 0px auto 20px auto;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    transition: all 1s;
+}
+.modal1 a {
+    text-decoration: none;
+    color: #373535;
+}
+
+    .modal1 a:hover {
+        color: #fff;
+    }
+
+.modal1:target {
+    top: 50%;
+}
+
+.modal1:not(:target) {
+    top: -50%;
+}
+
+.form-box3 {
+    height:40px;
+    width:200px;
+    padding:10px;
+    margin:3px;
+    border-radius:10px;
+}
+
+.form-box4 {
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 10px;
+}
+
+.form-box5 {
+    width:180px;
+    height:40px;
+    border-radius:10px;
+}
+
+
+
+.form-box1 {
+    width:200px;
+    height:30px;
+    border-radius:10px;
+    padding:5px;
+}
+
+.form-box1:hover {
+    cursor: pointer;
+}
+
+.form-box2 {
+    width:200px;
+    height:10px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+
+.form-box2:hover {
+    background:#808080;
+    color:#fff;
+}
